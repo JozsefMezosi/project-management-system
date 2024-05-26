@@ -13,6 +13,12 @@
         "!.next/cache/**"
       ]
     },
+    "migrate": {
+      "cache": false
+    },
+    "migration:gen": {
+      "cache": false
+    },
     "lint": {
       "dependsOn": [
         "^lint"
