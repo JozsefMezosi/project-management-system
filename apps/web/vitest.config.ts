@@ -6,7 +6,7 @@ export default defineConfig({
 
   test: {
     coverage: {
-      exclude: ["*.config.*", ".eslintrc.js"],
+      exclude: ["*.config.*", ".eslintrc.js", "coverage", ".next"],
       thresholds: {
         lines: 80,
         functions: 80,

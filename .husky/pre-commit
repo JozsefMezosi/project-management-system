@@ -1,0 +1,3 @@
+turbo run build
+turbo run lint
+turbo run test
